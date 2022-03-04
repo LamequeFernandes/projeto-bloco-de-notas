@@ -15,6 +15,8 @@ import { NotepadComponent } from './views/notepad/notepad.component';
 import { AppRoutingModule } from './app-routing.module'
 
 import { RouterModule } from '@angular/router';
+import { NoteCreateComponent } from './components/note-create/note-create.component';
+import { MatButtonModule } from '@angular/material/button'
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     NavComponent,
     HomeComponent,
-    NotepadComponent
+    NotepadComponent,
+    NoteCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { RouterModule } from '@angular/router';
     MatCardModule,
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

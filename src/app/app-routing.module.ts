@@ -1,3 +1,4 @@
+import { NoteCreateComponent } from './components/note-create/note-create.component';
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from '@angular/router';
 
@@ -12,7 +13,11 @@ const routes: Routes = [
   {
     path: "notas",
     component: NotepadComponent
-  }
+  },
+  {
+    path: "notas/criar",
+    component: NoteCreateComponent
+  },
 ];
 
 @NgModule({
