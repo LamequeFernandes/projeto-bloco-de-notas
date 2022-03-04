@@ -1,3 +1,4 @@
+import { Note } from './../note.model';
 import { Router } from '@angular/router';
 import { NoteService } from './../note.service';
 import { Component, OnInit } from '@angular/core';
@@ -14,9 +15,17 @@ export class NoteCreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // teste de envio para o db
+  nota: Note = {
+    name: 'Teste',
+    detalhe: 'detalhe de teste'
+  }
+
   public createNote(): void {
-    this.noteService.showMessage("Nota criada com sucesso!");
-    this.router.navigate(['/']);
+    this.noteService.create(this.nota).subscribe(() => {
+      this.noteService.showMessage("Nota criada com sucesso!");
+      this.router.navigate(['/']);
+    })
   }
 
   public cancelNote(): void {
