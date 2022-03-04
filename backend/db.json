@@ -1,0 +1,24 @@
+{
+  "notepad": [
+    {
+      "id": 1,
+      "name": "Animes para assistir",
+      "detalhe": "Attack on titas, Naruto, One piece"
+    },
+    {
+      "id": 2,
+      "name": "Quero comprar",
+      "detalhe": "Notebook Mac Pro, teclado, Xiaomi Mi A2"
+    },
+    {
+      "id": 3,
+      "name": "Lugares a ir",
+      "detalhe": "porto de galinhas, mimado goias"
+    },
+    {
+      "name": "possiveis carros",
+      "detalhe": "azera, uno, corolla, civic",
+      "id": 4
+    }
+  ]
+}
