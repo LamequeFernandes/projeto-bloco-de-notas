@@ -1,4 +1,4 @@
-import { NoteCreateComponent } from './components/note-create/note-create.component';
+import { NoteCreateComponent } from './components/note/note-create/note-create.component';
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from '@angular/router';
 

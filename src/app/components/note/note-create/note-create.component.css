@@ -1,0 +1,14 @@
+.button-create {
+  background-color: rgb(66, 35, 67, 0.9);
+  color: #FFF;
+  margin: 1rem 1rem 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  height: 10rem;
+}
