@@ -16,13 +16,13 @@ export class NoteCreateComponent implements OnInit {
   }
 
   // teste de envio para o db
-  nota: Note = {
-    name: 'Teste',
-    detalhe: 'detalhe de teste'
+  note: Note = {
+    name: '',
+    detalhe: ''
   }
 
   public createNote(): void {
-    this.noteService.create(this.nota).subscribe(() => {
+    this.noteService.create(this.note).subscribe(() => {
       this.noteService.showMessage("Nota criada com sucesso!");
       this.router.navigate(['/']);
     })

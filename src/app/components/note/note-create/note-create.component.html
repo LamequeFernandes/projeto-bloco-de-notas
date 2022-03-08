@@ -1,10 +1,13 @@
 <mat-card>
   <form>
     <mat-form-field>
-      <input matInput placeholder="Titulo da nota">
+      <input matInput placeholder="Titulo da nota"
+            [(ngModel)]="note.name" name="titulo">
     </mat-form-field>
-    <mat-form-field>
-      <textarea matInput placeholder="Conteúdo da nota"></textarea>
+
+    <mat-form-field appearance="fill">
+      <textarea matInput placeholder="Conteúdo da nota"
+                [(ngModel)]="note.detalhe" name="detalhes"></textarea>
     </mat-form-field>
   </form>
 </mat-card>
