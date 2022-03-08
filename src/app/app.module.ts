@@ -20,7 +20,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { MatInputModule } from '@angular/material/input'
+import { MatInputModule } from '@angular/material/input';
+import { NoteReadComponent } from './components/note/note-read/note-read.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MatInputModule } from '@angular/material/input'
     NavComponent,
     HomeComponent,
     NotepadComponent,
-    NoteCreateComponent
+    NoteCreateComponent,
+    NoteReadComponent
   ],
   imports: [
     BrowserModule,

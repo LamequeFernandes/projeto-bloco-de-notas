@@ -24,4 +24,8 @@ export class NoteService {
   public create(note: Note): Observable<Note> {
     return this.http.post<Note>(this.baseUrl, note);
   }
+
+  public read(): Observable<Note[]> {
+    return this.http.get<Note[]>(this.baseUrl);
+  }
 }

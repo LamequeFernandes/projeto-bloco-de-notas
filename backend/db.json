@@ -19,6 +19,11 @@
       "name": "possiveis carros",
       "detalhe": "azera, uno, corolla, civic",
       "id": 4
+    },
+    {
+      "name": "Metas estudos 2022",
+      "detalhe": "- Angular.\n- React.\n- Algum framework backend.\n- Básico de Flutter.",
+      "id": 5
     }
   ]
 }
